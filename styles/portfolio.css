@@ -70,6 +70,9 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
 }
+.text_alingnment{
+    text-align: center;
+}
 
 /* banner styles */
 
@@ -100,18 +103,16 @@ nav ul li a{
     width: 584px;
 }
 
-/* Main Section */
 
-main{
+/* About Section  */
+
+.about_main{
     max-width: 1140px;
     margin: 0 auto;
-    
     border-radius: 20px;
     padding: 130px 150px;
     margin: 130px;
 }
-
-/* About Section  */
 
 .about{
     background-color: white;
@@ -130,4 +131,31 @@ main{
 }
 .item_description{
     margin-top: 5px;
+}
+
+/* What I will do section  */
+.what_i_do_title_and_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* Skills Section styles */
+.skills{
+    margin-bottom: 130px;
+}
+
+.skills_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.skill{
+    padding: 10px;
+    width: 265px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.105);
+    border-radius: 5px;
 }
