@@ -213,3 +213,73 @@ footer textarea{
     margin-bottom: 24px;
     border: none;
 }
+
+/* mobile device */
+
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    nav{
+        flex-direction: column;
+    }
+    /* nav > ul{
+        flex-direction: column;
+        gap: 10px;
+    } */
+    .banner_profile_picture{
+        width: 100%;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+    .about_main{
+        margin: auto;
+        padding: 2px;
+    }
+    .about_items{
+        flex-direction: column;
+    }
+    .section_description{
+        padding: 0 10px;
+        width: calc(100% - 10px);
+    }
+    .skills_container{
+        flex-direction: column;
+    }
+    .skill{
+        width: 90%;
+    }
+    .resume_container{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .resume_column{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_column{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"]{
+        width: calc(100% - 40px);
+    }
+    footer textarea{
+        width: calc(100% - 40px);
+    }
+}
+
+/* tablet device  */
+
+@media screen and (min-width:576px) {
+    .banner{
+        flex-direction: column;
+    }
+}
