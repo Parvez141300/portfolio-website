@@ -259,10 +259,12 @@ footer textarea{
     }
     .resume_container{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 0px;
     }
     .resume_column{
-        width: 100%;
+        width: 90%;
     }
     footer{
         flex-direction: column;
