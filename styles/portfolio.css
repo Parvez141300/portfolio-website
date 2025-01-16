@@ -223,7 +223,7 @@ footer textarea{
     }
     nav{
         flex-direction: column;
-        margin: 0;
+        margin: 0 auto;
     }
     /* nav > ul{
         flex-direction: column;
